@@ -1,11 +1,11 @@
 module data_types;
   
-  integer D1;
-  logic [3:0] D2;
+  	integer D1; 	// 32-bit Signed 
+  	logic [3:0] D2; // 4-bit unsigned
  
-  bit [7:0]  D3;
-  byte  D4;
-  shortint D5;
+	bit [7:0]  D3;	// 8-bit signed
+  	byte  D4; 		// 8-bit signed
+  	shortint D5;	//16-bit signed
    
   initial begin
      
