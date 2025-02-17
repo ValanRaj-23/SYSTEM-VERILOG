@@ -15,8 +15,8 @@ module data_types;
     $display(" D2 = %0d", D2);
 
     D2 = 'd12 + 'bx;
-		$display(" D2 = %0d", D2); 
-		D2 = 'd12;
+	$display(" D2 = %0d", D2); 
+	D2 = 'd12;
     $display(" D2 = %0d", D2);
     
     D3 = 'd20;
@@ -29,3 +29,14 @@ module data_types;
         
   end
 endmodule
+
+//SIMULATION OUTPUT
+/*
+# KERNEL:  D1 = -121
+# KERNEL:  D2 = 11
+# KERNEL:  D2 = x
+# KERNEL:  D2 = 12
+# KERNEL:  D3 = 20
+# KERNEL:  D3 = 0
+# KERNEL:  D4 = 12
+*/
