@@ -24,4 +24,14 @@ module associative_array;
     
   end
 endmodule            
+
+//SIMULATION OUTPUT
+/*
+# KERNEL:  a_array1 : '{1:11, 2:22, 3:33, 4:44}
+# KERNEL:  a_array2 : '{"four":4, "one":1, "three":3, "two":2}
+# KERNEL:  a_array3 : '{"A":"Apple", "B":"Ball", "C":"Cat"}
+# KERNEL:  a_array1 : '{1:11, 2:22, 3:33, 4:44, 5:55}
+# KERNEL:  a_array2 : '{"five":5, "four":4, "one":1, "three":3, "two":2}
+# KERNEL:  a_array3 : '{"A":"Apple", "B":"Ball", "C":"Cat", "D":"doll"}
+*/
     
