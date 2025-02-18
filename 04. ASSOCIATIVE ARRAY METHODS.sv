@@ -45,3 +45,20 @@ int a_array1 [string];
   
   end
 endmodule 
+
+
+// SIMULATION OUTPUT
+/*
+# KERNEL:  size of a_array1 : 4
+# KERNEL:  a_array1 : '{"four":4, "one":1, "three":3, "two":2}
+# KERNEL:  there exist index one in the the a_array1
+# KERNEL:  size of a_array1 : 3
+# KERNEL:  a_array1 : '{"five":5, "seven":7, "six":6}
+# KERNEL:  there no existence of index one in the the a_array1
+# KERNEL:  size of a_array1 :           5
+# KERNEL:  a_array1 : '{"eight":8, "five":5, "nine":9, "seven":7, "six":6}
+# KERNEL:  this is the first index of the array : eight
+# KERNEL:  this is the next index of the array : five
+# KERNEL:  this is the last index of the array : six
+# KERNEL:  this is the last index of the array : seven
+*/
