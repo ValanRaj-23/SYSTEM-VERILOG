@@ -27,3 +27,30 @@ module dynamic_array;
   end
 
 endmodule
+
+
+// SIMULATION OUTPUT
+/*
+# KERNEL:  size of d_array = 5
+# KERNEL: d_array[0] = 1
+# KERNEL: d_array[1] = 2
+# KERNEL: d_array[2] = 3
+# KERNEL: d_array[3] = 4
+# KERNEL: d_array[4] = 5
+# KERNEL:  size of d_array = 7
+# KERNEL:  size of d_array = 5
+# KERNEL: d_array1[0] = 1
+# KERNEL: d_array1[1] = 2
+# KERNEL: d_array1[2] = 3
+# KERNEL: d_array1[3] = 4
+# KERNEL: d_array1[4] = 5
+# KERNEL: d_array1[5] = 0
+# KERNEL: d_array1[6] = 0
+# KERNEL: d_array1[0] = 1
+# KERNEL: d_array1[1] = 2
+# KERNEL: d_array1[2] = 3
+# KERNEL: d_array1[3] = 4
+# KERNEL: d_array1[4] = 5
+# KERNEL: d_array1[5] = 6
+# KERNEL: d_array1[6] = 0
+*/
