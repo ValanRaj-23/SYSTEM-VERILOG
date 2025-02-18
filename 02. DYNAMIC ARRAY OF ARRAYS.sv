@@ -29,4 +29,47 @@ $display(" d_array =", d_array);
     //%p prints the entire array without needing a loop
     end
 endmodule
+
+// SIMULATION OUTPUT
+/*
+# KERNEL:  d_array ='{'{}, '{}, '{}, '{}}
+# KERNEL:  d_array 0 = '{0, 0, 0, 0}
+# KERNEL:  d_array 1 = '{0, 0, 0, 0}
+# KERNEL:  d_array 2 = '{0, 0, 0, 0}
+# KERNEL:  d_array 3 = '{0, 0, 0, 0}
+# KERNEL:  size of array = 4
+# KERNEL:  d_array [0][0] = [1]
+# KERNEL:  d_array [0][1] = [1]
+# KERNEL:  d_array [0][2] = [1]
+# KERNEL:  d_array [0][3] = [1]
+# KERNEL:  d_array [1][0] = [1]
+# KERNEL:  d_array [1][1] = [2]
+# KERNEL:  d_array [1][2] = [3]
+# KERNEL:  d_array [1][3] = [4]
+# KERNEL:  d_array [2][0] = [1]
+# KERNEL:  d_array [2][1] = [3]
+# KERNEL:  d_array [2][2] = [5]
+# KERNEL:  d_array [2][3] = [7]
+# KERNEL:  d_array [3][0] = [1]
+# KERNEL:  d_array [3][1] = [4]
+# KERNEL:  d_array [3][2] = [7]
+# KERNEL:  d_array [3][3] = [10]
+# KERNEL:  d_array [0][0] = [1]
+# KERNEL:  d_array [0][1] = [1]
+# KERNEL:  d_array [0][2] = [1]
+# KERNEL:  d_array [0][3] = [1]
+# KERNEL:  d_array [1][0] = [1]
+# KERNEL:  d_array [1][1] = [2]
+# KERNEL:  d_array [1][2] = [3]
+# KERNEL:  d_array [1][3] = [4]
+# KERNEL:  d_array [2][0] = [1]
+# KERNEL:  d_array [2][1] = [3]
+# KERNEL:  d_array [2][2] = [5]
+# KERNEL:  d_array [2][3] = [7]
+# KERNEL:  d_array [3][0] = [1]
+# KERNEL:  d_array [3][1] = [4]
+# KERNEL:  d_array [3][2] = [7]
+# KERNEL:  d_array [3][3] = [10]
+# KERNEL:  d_array  = ['{'{1, 1, 1, 1}, '{1, 2, 3, 4}, '{1, 3, 5, 7}, '{1, 4, 7, 10}}]
+*/
       
