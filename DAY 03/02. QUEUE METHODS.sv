@@ -41,3 +41,21 @@ module queue_methods;
   end
 endmodule
     
+//SIMULATION OUTPUT
+/*
+# KERNEL:  Q1 : '{1, 2, 3, 4, 5, 6}
+# KERNEL:  Q2 : '{7, 8, 9}
+# KERNEL:  Q1 : '{1, 2, 3, 10, 4, 5, 6}
+# KERNEL:  Q2 : '{7, 8, 9, 10}
+# RUNTIME: Warning: RUNTIME_0249 testbench.sv (21): Operation would exceed maximum right index of 6.
+# KERNEL: Time: 0 ns,  Iteration: 0,  Instance: /queue_methods,  Process: @INITIAL#6_0@.
+# KERNEL:  Q1 : '{1, 2, 3, 10, 4, 5, 6}
+# KERNEL:  Q2 : '{11, 7, 8, 9, 10}
+# KERNEL: pop out first element of queue Q1 :           1
+# KERNEL: pop out first element of queue Q2 :          10
+# KERNEL:  Q1 : '{2, 3, 10, 4, 5, 6}
+# KERNEL:  Q2 : '{11, 7, 8, 9}
+# KERNEL:  Q1 : '{7, 2, 3, 10, 4, 5, 6}
+# KERNEL:  Q2 : '{12, 11, 7, 8, 9}
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+*/
