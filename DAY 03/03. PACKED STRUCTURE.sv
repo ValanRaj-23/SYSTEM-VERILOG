@@ -33,4 +33,13 @@ initial begin
 end
 endmodule       
 
-
+// SIMULATION OUTPUT
+/*
+# KERNEL: elements in list : '{data1:12, data2:56, data3:0, data4:0}
+# KERNEL: elements in list : '{data1:0, data2:0, data3:120, data4:15}
+# KERNEL: elements in list : '{data1:0, data2:0, data3:0, data4:0}
+# KERNEL: elements in list : 00000000000000000000000011111111
+# KERNEL: elements in list :        255
+# KERNEL: elements in list : 00100010110100000000000011111111
+# KERNEL: elements in list :  584057087
+*/
