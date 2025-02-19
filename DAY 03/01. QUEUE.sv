@@ -25,3 +25,18 @@ module queue1;
     
   end
 endmodule
+
+//SIMULATION OUTPUT
+/*
+# KERNEL: Q1 =  '{1, 2, 3, 4, 5, 6} size = 6
+# KERNEL: Q2 =  '{11, 22, 33, 44, 55} size = 5
+# KERNEL: Q3 =  '{"one", "two", "three", "four"} size = 4
+# RUNTIME: Warning: RUNTIME_0222 testbench.sv (59): Index 8 is out of array dimension bounds [0:5].
+# KERNEL: Time: 0 ns,  Iteration: 0,  Instance: /queue1,  Process: @INITIAL#54_0@.
+# RUNTIME: Warning: RUNTIME_0222 testbench.sv (65): Index 5 is out of array dimension bounds [0:3].
+# KERNEL: Time: 0 ns,  Iteration: 0,  Instance: /queue1,  Process: @INITIAL#54_0@.
+# KERNEL: Q1 =  '{1, 2, 3, 4, 5, 6, 7, 6, 8} size = 9
+# KERNEL: Q2 =  '{11, 22, 33, 44, 55, 66, 77} size = 7
+# KERNEL: Q3 =  '{"one", "two", "three", "four", "five"} size = 5
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+*/
