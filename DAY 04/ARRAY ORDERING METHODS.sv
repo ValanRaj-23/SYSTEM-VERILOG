@@ -32,3 +32,13 @@ module array_reduction_methods;
   end
 endmodule
 
+//SIMULATION OUTPUT
+/*
+# KERNEL:  sort of the array : '{1, 2, 3, 4, 5, 6} 
+# KERNEL:  rsort of the array : '{6, 5, 4, 3, 2, 1} 
+# KERNEL:  sort of the array : '{3, 2, 1, 6, 5, 4} 
+# KERNEL:  rsort of the array : '{5, 6, 3, 4, 2, 1} 
+# KERNEL:  sort of the array : '{1, 2, 3, 4, 5, 6} 
+# KERNEL:  shuffle of the array : '{5, 2, 1, 6, 4, 3} 
+# KERNEL:  reverse of the string : '{"d", "c", "b", "a"} 
+*/
