@@ -23,3 +23,17 @@ module automatic_task;
     end
   end
  endmodule
+
+//SIMULATION OUTPUT
+/*
+# KERNEL: Incremented value : 0
+# KERNEL: Incremented value : 0
+# KERNEL: Incremented value : 0
+# KERNEL: Incremented value : 0
+# KERNEL: Incremented value : 0
+# KERNEL: Incremented value : 0
+# KERNEL: Incremented value : 1
+# KERNEL: Incremented value : 2
+# KERNEL: Incremented value : 3
+# KERNEL: Incremented value : 4
+*/
