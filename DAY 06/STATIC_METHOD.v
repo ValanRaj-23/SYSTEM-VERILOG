@@ -20,13 +20,13 @@ endclass
 
 module no_of_ones;
 //   logic[31:0] data;
-     	check m1,m2,m3;
+   check m[2]
   
 initial begin
 
-  	m1 = new;
-  	m2 = new;
-    m3 = new;
+   m[0] = new;
+   m[0] = new;
+   m[0] = new;
   
   m1.loop(15);
   $display("calling the class method from another object");
