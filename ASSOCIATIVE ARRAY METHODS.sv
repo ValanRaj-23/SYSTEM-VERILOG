@@ -37,11 +37,12 @@ int a_array1 [string];
     if(a_array1.next(result))
       $display(" this is the next index of the array : %s", result);
 
+	  
     if(a_array1.last(result))
-      $display(" this is the last index of the array : % ", result);    
+	$display(" this is the last index of the array : %s ", result);    
 
     if(a_array1.prev(result))
-      $display(" this is the last index of the array : % ", result);   
+	$display(" this is the last index of the array : %s ", result);   
   
   end
 endmodule 
