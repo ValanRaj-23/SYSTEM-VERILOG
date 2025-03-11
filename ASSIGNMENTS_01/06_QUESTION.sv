@@ -1,54 +1,47 @@
-module queue_methods;
-int j;
-int q[$];
+module dynamic_array;
+int d[], d1[];
 
 initial begin
-	q = '{0, 2, 5};
-	j = 22;
-	$display(" q values : %p", q);
-	$display(" j  : %0d", j);
+	d = new[6];
+	d1 = new[6];
 
-	q[1] = j;
-	$display(" q values : %p", q);
+	d = '{9, 1, 8, 3, 4, 4};
+	foreach (d1[i])
+	begin
+		d1[i] = i;
+	end
 
-	q.delete(1);
-	$display(" q values : %p", q);
+	$display(" d size : %0d ", d.size());
+	$display(" d values : %p ", d);
+	$display(" d1 size : %0d ", d1.size());
+	$display(" d1 values : %p ", d1);
 
-	q.push_front(7);
-	q.push_back(9);
-	$display(" q values : %p", q);
+	d1.delete();
+	$display(" d1 size : %0d ", d1.size());
+	$display(" d1 values : %p ", d1);
 
-	q.reverse();
-	$display(" q values : %p", q);
+	d.reverse();
+	$display(" d values : %p ", d);
 	
-	q.sort();
-	$display(" q values : %p", q);
-	
-	q.rsort();
-	$display(" q values : %p", q);
+	d.sort();
+	$display(" d values : %p ", d);
+		
+	d.rsort();
+	$display(" d values : %p ", d);
 
-	q.shuffle();
-	$display(" q values : %p", q);
-	
-	j = q.pop_front();
-	$display(" popped value : %0d", j);
-
-	j = q.pop_back();
-	$display(" popped value : %0d", j);
-
-	$display(" q values : %p", q);
+	d.shuffle();
+	$display(" d values : %p ", d);	 	
 end
+
 endmodule
 
-//#  q values : '{0, 2, 5}
-//#  j  : 22
-//#  q values : '{0, 22, 5}
-//#  q values : '{0, 5}
-//#  q values : '{7, 0, 5, 9}
-//#  q values : '{9, 5, 0, 7}
-//#  q values : '{0, 5, 7, 9}
-//#  q values : '{9, 7, 5, 0}
-//#  q values : '{7, 0, 5, 9}
-//#  popped value : 7
-//#  popped value : 9
-//#  q values : '{0, 5}
+//#  d size : 6
+//#  d values : '{9, 1, 8, 3, 4, 4}
+//#  d1 size : 6
+//#  d1 values : '{0, 1, 2, 3, 4, 5}
+//#  d1 size : 0
+//#  d1 values : '{}
+//#  d values : '{4, 4, 3, 8, 1, 9}
+//#  d values : '{1, 3, 4, 4, 8, 9}
+//#  d values : '{9, 8, 4, 4, 3, 1}
+//#  d values : '{4, 1, 8, 3, 9, 4}
