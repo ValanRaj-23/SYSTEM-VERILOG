@@ -10,7 +10,8 @@ endclass
 
 module cons_array;
   	initial begin
-      fixed fd = new();
+      fixed_dynamic fd; 
+      fd = new();
       repeat(5)
         begin
       	void'(fd.randomize());
