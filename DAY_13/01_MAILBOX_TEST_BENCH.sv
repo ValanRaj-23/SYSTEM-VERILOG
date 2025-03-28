@@ -20,4 +20,26 @@ module top_tb;
   	$display("_________________");
   end
 endmodule
-  
+
+
+// OUTPUT
+//   Process : Transaction
+// # Process : generator
+// # data received
+// #  a = 1 b = 0 c = 0
+// # Process : Transaction
+// # Process : generator
+// # data received
+// #  a = 0 b = 0 c = 1
+// # Process : Transaction
+// # Process : generator
+// # data received
+// #  a = 0 b = 1 c = 1
+// # Process : Transaction
+// # Process : generator
+// # data received
+// #  a = 1 b = 1 c = 1
+// # Process : Transaction
+// # Process : generator
+// # data received
+// #  a = 0 b = 1 c = 0
