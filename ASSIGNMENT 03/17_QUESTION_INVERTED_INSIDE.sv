@@ -2,7 +2,7 @@
 
 class packet;
   rand int unsigned data1;
-  constraint c1{ data1 inside { [0:9], [11:19], [21:29], [31:39] };}
+  // constraint c1{ data1 inside { [0:9], [11:19], [21:29], [31:39] };}
   constraint c2{ !(data1 inside { 10, 20, 30, 40});
                		data1 < 40;}
   
