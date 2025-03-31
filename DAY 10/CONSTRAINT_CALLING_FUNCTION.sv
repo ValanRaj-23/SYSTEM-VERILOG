@@ -22,3 +22,9 @@ module test;
       end
   end
 endmodule
+
+
+ // a , b = 2 , 10 > 10
+ // a , b = 6 , 11 > 10
+
+//check the code once
