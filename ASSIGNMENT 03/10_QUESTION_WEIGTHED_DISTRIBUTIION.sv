@@ -7,7 +7,6 @@ module constr_dist;
 	initial begin
 		packet pkt;
 		pkt = new();
-  		$display("------------------------------------");
 		repeat(10)
     	begin
 		    pkt.randomize();
