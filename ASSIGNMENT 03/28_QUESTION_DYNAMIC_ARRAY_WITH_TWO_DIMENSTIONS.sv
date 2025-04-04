@@ -1,4 +1,4 @@
-28. Write the constraint such that size of first dimension of array should be inside [5 : 10] &amp; 2nd dimension of array should be 5.
+//28. Write the constraint such that size of first dimension of array should be inside [5 : 10] &amp; 2nd dimension of array should be 5.
 
 class arr_dimen;
   rand bit [3:0] arr [][];
