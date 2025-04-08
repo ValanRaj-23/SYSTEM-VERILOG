@@ -5,7 +5,6 @@ class distri;
   constraint easy{ test dist {UART := 10, [SPI:USB] := 20, AXI := 50, [APB:AHP] := 70}; }
 endclass
 
-  
   module proto;
     initial begin
       distri d1;
