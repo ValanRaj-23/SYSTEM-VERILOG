@@ -1,4 +1,4 @@
-// 5. The constriant for an array of 10 elements in which the first 5 elements are in increment in nature and next 5 elements are in decrement in nature . all the elements in range of 50 to 100 and all elements be multiple of 5.
+// 11. The constriant for an array of 10 elements in which the first 5 elements are in increment in nature and next 5 elements are in decrement in nature . all the elements in range of 50 to 100 and all elements be multiple of 5.
 
 class top;
   rand bit [7:0] arr [10];
