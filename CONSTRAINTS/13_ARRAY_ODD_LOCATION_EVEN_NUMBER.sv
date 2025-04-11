@@ -1,4 +1,4 @@
-// 8. Write a constraint for an array of numbers such that the size
+// 13. Write a constraint for an array of numbers such that the size
 // of array ranges from 16 to 32 elements, and even index
 // locations should have odd numbers and odd index
 // locations should have even numbers, numbers rage is
